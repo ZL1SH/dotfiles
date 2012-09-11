@@ -86,7 +86,7 @@ alias pssh='ssh -o "ProxyCommand ssh $PSSH_HOST nc -w1 %h %p"'
 alias dirtree="ls -R | grep \":$\" | sed -e 's/:$//' -e 's/[^-][^\/]*\//--/g' -e 's/^/   /' -e 's/-/|/'"
 alias tc='top -o cpu'
 alias tm='top -o vsize' 
-
+alias git='hub'
 
 ##cd, because typing the backslash is ALOT of work!!
 alias ..='cd ../'
